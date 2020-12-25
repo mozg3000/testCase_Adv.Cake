@@ -1,0 +1,13 @@
+{
+    "name": "iluka/test-case_adv.cake",
+    "description": "Adv.Cake",
+    "authors": [
+        {
+            "name": "mozg3000",
+            "email": "i.luka@outlook.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
