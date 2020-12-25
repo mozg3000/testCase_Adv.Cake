@@ -1,10 +1,10 @@
 <?php
-require('./revertstring.php');
 use  PHPUnit\Framework\TestCase;
 
 class RstringTest extends TestCase{
 	public function testRevers(){
-		$revertedString = revertstring("Привет!");
+		$reverser = new app\utiles\RevertString();
+		$revertedString = $reverser->revert("Привет!");
 		$this->assertSame("!тевирП", $revertedString);
 	}
 }
